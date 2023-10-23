@@ -1,0 +1,7 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AF481864.1 1 11029
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11082
+AF481864.1	Genbank	region	1	11029	.	+	.	ID=AF481864.1:1..11029;Dbxref=taxon:11082;gb-acronym=WNV;gbkey=Src;mol_type=genomic RNA;nat-host=sick stork;note=isolated in Israel in 1998;strain=IS-98 STD1
+AF481864.1	Genbank	CDS	97	10398	.	+	0	Name=polyprotein;gbkey=CDS;protein_id=AAL87234.1;ID=cds-AAL87234.1;Dbxref=NCBI_GP:AAL87234.1;product=polyprotein precursor

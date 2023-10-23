@@ -1,0 +1,3510 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "WNV nextclade reference tree",
+    "updated": "2023-10-23",
+    "build_url": "https://github.com/neherlab/nextclade_dataset_template",
+    "data_provenance": [
+      {
+        "name": "NCBI GenBank"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "optional: Your Name",
+        "url": "optional url to your website"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true,
+      "color_by": "clade_membership",
+      "distance_measure": "div"
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 11029,
+        "start": 1,
+        "strand": "+"
+      }
+    },
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "clade_membership"
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000002",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1995.7328028315378
+      },
+      "clade_membership": {
+        "value": "NY99"
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "AF481864",
+        "node_attrs": {
+          "div": 0.0011815979901342352,
+          "num_date": {
+            "value": 1998.6561643835616
+          },
+          "accession": "AF481864",
+          "clade_membership": {
+            "value": "pre-NY"
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C315T",
+              "C969T",
+              "C2145T",
+              "G2519A",
+              "C3984T",
+              "T3990C",
+              "T3993C",
+              "G4018C",
+              "G4449T",
+              "A4463G",
+              "G4466A",
+              "C4617T",
+              "C5493T",
+              "T5496C",
+              "T6098C",
+              "T6174G",
+              "A6204G",
+              "T6936C",
+              "G7356A",
+              "C7840T",
+              "G8169T",
+              "T8466C",
+              "G8520C",
+              "T8795C",
+              "G10851A"
+            ]
+          }
+        }
+      },
+      {
+        "name": "NODE_0000000",
+        "node_attrs": {
+          "div": 0.0010906882323637355,
+          "num_date": {
+            "value": 1998.4192270819665
+          },
+          "clade_membership": {
+            "value": "NY99"
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "KX547602",
+            "node_attrs": {
+              "div": 0.0017271640397727157,
+              "num_date": {
+                "value": 2000.6680327868853
+              },
+              "accession": "KX547602",
+              "clade_membership": {
+                "value": "NY99"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C3702T",
+                  "C4164T",
+                  "G5937A",
+                  "A5938G",
+                  "C6633A",
+                  "A7437G",
+                  "G7825A"
+                ]
+              }
+            }
+          },
+          {
+            "name": "MH166903",
+            "node_attrs": {
+              "div": 0.0021813557896810335,
+              "num_date": {
+                "value": 2000.5833333333333
+              },
+              "accession": "MH166903",
+              "clade_membership": {
+                "value": "NY99"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C657T",
+                  "G1528A",
+                  "C1620T",
+                  "T1692C",
+                  "A2118C",
+                  "C2424T",
+                  "C2958T",
+                  "C3898T",
+                  "C4602T",
+                  "G4797A",
+                  "T6330C",
+                  "C10203T"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "div": 0.001544780309378518,
+              "num_date": {
+                "value": 1999.5456138589454
+              },
+              "clade_membership": {
+                "value": "NY99"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A108G",
+                  "C858T",
+                  "G1834A",
+                  "T4030C",
+                  "C4959T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "KX547519",
+                "node_attrs": {
+                  "div": 0.0019083421576003151,
+                  "num_date": {
+                    "value": 2000.6680327868853
+                  },
+                  "accession": "KX547519",
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C2688T",
+                      "T3990C",
+                      "G5761A",
+                      "T6960C"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "HM488132",
+                "node_attrs": {
+                  "div": 0.0019995674004086666,
+                  "num_date": {
+                    "value": 2000.7199453551912
+                  },
+                  "accession": "HM488132",
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A726G",
+                      "G951A",
+                      "C3297T",
+                      "T4101C",
+                      "C7134T"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000011",
+            "node_attrs": {
+              "div": 0.0012722784974643065,
+              "num_date": {
+                "value": 1998.992074667563
+              },
+              "clade_membership": {
+                "value": "NY99"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A6462G",
+                  "T8727C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "HM488126",
+                "node_attrs": {
+                  "div": 0.0013632056698329972,
+                  "num_date": {
+                    "value": 1999.7328767123288
+                  },
+                  "accession": "HM488126",
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A8007G"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "HM488127",
+                "node_attrs": {
+                  "div": 0.0017271627715200544,
+                  "num_date": {
+                    "value": 1999.7301369863014
+                  },
+                  "accession": "HM488127",
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A1C",
+                      "T3A",
+                      "A4C",
+                      "C7980T",
+                      "C9240T"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "div": 0.0011814749695272019,
+              "num_date": {
+                "value": 1998.4784512779186
+              },
+              "clade_membership": {
+                "value": "NY99"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C4677T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "AF202541",
+                "node_attrs": {
+                  "div": 0.0023640296944330624,
+                  "num_date": {
+                    "value": 1999.6561643835616
+                  },
+                  "accession": "AF202541",
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T615C",
+                      "C1050T",
+                      "A1200G",
+                      "T1206C",
+                      "G2488A",
+                      "G2495C",
+                      "T2702C",
+                      "G2988A",
+                      "A2989G",
+                      "G4665C",
+                      "C6735A",
+                      "A7671G",
+                      "T8601C"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "KX547395",
+                "node_attrs": {
+                  "div": 0.0019088584424926083,
+                  "num_date": {
+                    "value": 2000.6653005464482
+                  },
+                  "accession": "KX547395",
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1275T",
+                      "A1296G",
+                      "T1822C",
+                      "C2820T",
+                      "G3321T",
+                      "G3660A",
+                      "C5191T",
+                      "C8400T"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "HM488130",
+                "node_attrs": {
+                  "div": 0.0020914456422904916,
+                  "num_date": {
+                    "value": 2000.714480874317
+                  },
+                  "accession": "HM488130",
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T826C",
+                      "C1974T",
+                      "G3187A",
+                      "C4144T",
+                      "G4195A",
+                      "A4257G",
+                      "C5730T",
+                      "G7797A",
+                      "A8370G",
+                      "A8958G"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000004",
+            "node_attrs": {
+              "div": 0.0011814749695272019,
+              "num_date": {
+                "value": 1998.5620775307823
+              },
+              "clade_membership": {
+                "value": "NY99"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C10408T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "div": 0.0021810074051272577,
+                  "num_date": {
+                    "value": 2000.5147720301968
+                  },
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C456T",
+                      "T516C",
+                      "G1185A",
+                      "T1581C",
+                      "T1899C",
+                      "G7533T",
+                      "A7725G",
+                      "G7734A",
+                      "C8103T",
+                      "T8724C",
+                      "C8751T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "MH166901",
+                    "node_attrs": {
+                      "div": 0.0021810074051272577,
+                      "num_date": {
+                        "value": 2000.5833333333333
+                      },
+                      "accession": "MH166901",
+                      "clade_membership": {
+                        "value": "NY99"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "MH166904",
+                    "node_attrs": {
+                      "div": 0.0021810074051272577,
+                      "num_date": {
+                        "value": 2000.5833333333333
+                      },
+                      "accession": "MH166904",
+                      "clade_membership": {
+                        "value": "NY99"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000006",
+                "node_attrs": {
+                  "div": 0.0016356462120209164,
+                  "num_date": {
+                    "value": 1999.4222154068366
+                  },
+                  "clade_membership": {
+                    "value": "NY99"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T825C",
+                      "G1482A",
+                      "C3810T",
+                      "G5930C",
+                      "T8451C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "AF206518",
+                    "node_attrs": {
+                      "div": 0.0018172909290356538,
+                      "num_date": {
+                        "value": 1999.7027397260274
+                      },
+                      "accession": "AF206518",
+                      "clade_membership": {
+                        "value": "NY99"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C687T",
+                          "G2056A"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "HQ671707",
+                    "node_attrs": {
+                      "div": 0.0016356462120209164,
+                      "num_date": {
+                        "value": 1999.5821917808219
+                      },
+                      "accession": "HQ671707",
+                      "clade_membership": {
+                        "value": "NY99"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000013",
+            "node_attrs": {
+              "div": 0.0019083357418580487,
+              "num_date": {
+                "value": 2001.9920874242714
+              },
+              "clade_membership": {
+                "value": "WN02"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T1442C",
+                  "C2466T",
+                  "A4146G",
+                  "C4803T",
+                  "C6138T",
+                  "C6426T",
+                  "C6996T",
+                  "T7938C",
+                  "C9352T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000015",
+                "node_attrs": {
+                  "div": 0.002180741677628755,
+                  "num_date": {
+                    "value": 2002.6115570521965
+                  },
+                  "clade_membership": {
+                    "value": "WN02"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C6741T",
+                      "C10408T",
+                      "T10688C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KX547482",
+                    "node_attrs": {
+                      "div": 0.0072951527411996685,
+                      "num_date": {
+                        "value": 2013.5986301369862
+                      },
+                      "accession": "KX547482",
+                      "clade_membership": {
+                        "value": "WN02"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G279A",
+                          "T1368C",
+                          "A1401G",
+                          "T1965C",
+                          "A2097C",
+                          "A2139G",
+                          "C2371T",
+                          "C2593T",
+                          "T3138C",
+                          "T3171C",
+                          "C3504T",
+                          "C3680T",
+                          "C3699T",
+                          "C3808T",
+                          "G4088A",
+                          "T4194C",
+                          "T4564C",
+                          "A4611G",
+                          "G4725A",
+                          "G4830A",
+                          "C4848T",
+                          "G4944A",
+                          "A4971G",
+                          "C4986T",
+                          "A5070G",
+                          "C5148T",
+                          "T5430C",
+                          "T5611A",
+                          "C5658T",
+                          "C5667T",
+                          "C5874T",
+                          "A5964G",
+                          "T5994C",
+                          "C6102T",
+                          "A6204G",
+                          "T6468C",
+                          "G6522A",
+                          "C6598T",
+                          "G6705A",
+                          "T6712C",
+                          "T6750C",
+                          "G6956T",
+                          "G7248A",
+                          "C7284T",
+                          "A7305G",
+                          "T7515C",
+                          "T7520C",
+                          "G7758A",
+                          "G7866A",
+                          "C8661T",
+                          "C9105T",
+                          "A9225G",
+                          "C9468T",
+                          "C10023T",
+                          "C10059A",
+                          "G10516A"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "div": 0.005642362204287203,
+                      "num_date": {
+                        "value": 2010.491008294925
+                      },
+                      "clade_membership": {
+                        "value": "WN02"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T585C",
+                          "G1117A",
+                          "G1680A",
+                          "C1959T",
+                          "T2572C",
+                          "T3093C",
+                          "C3168T",
+                          "G3291A",
+                          "C3300T",
+                          "T3318C",
+                          "C3328T",
+                          "T3556C",
+                          "T4212C",
+                          "C5253T",
+                          "C5415T",
+                          "A5742G",
+                          "C5940T",
+                          "G5982A",
+                          "G6228A",
+                          "G6600A",
+                          "A6992C",
+                          "T6993C",
+                          "C7452T",
+                          "C7804T",
+                          "T8049A",
+                          "T8340C",
+                          "A8403G",
+                          "G8430A",
+                          "A8454T",
+                          "C8568T",
+                          "C9255T",
+                          "C10035T",
+                          "G10188A",
+                          "T10209C",
+                          "C10260T",
+                          "A10409G",
+                          "C10435T",
+                          "T10485C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "MF175829",
+                        "node_attrs": {
+                          "div": 0.0070133436510082135,
+                          "num_date": {
+                            "value": 2013.5958904109589
+                          },
+                          "accession": "MF175829",
+                          "clade_membership": {
+                            "value": "WN02"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G1815A",
+                              "C1869A",
+                              "G2163A",
+                              "G3153T",
+                              "G3933A",
+                              "C4827T",
+                              "T5643C",
+                              "T5745C",
+                              "G6270A",
+                              "T6846C",
+                              "C7015T",
+                              "T7467C",
+                              "C8625T",
+                              "T8937A",
+                              "G9057A"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "MF175873",
+                        "node_attrs": {
+                          "div": 0.007918877157004324,
+                          "num_date": {
+                            "value": 2015.686301369863
+                          },
+                          "accession": "MF175873",
+                          "clade_membership": {
+                            "value": "WN02"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C474T",
+                              "C631T",
+                              "G756A",
+                              "G1419A",
+                              "T2052C",
+                              "T2166A",
+                              "A2580G",
+                              "G3027T",
+                              "A3092G",
+                              "C3720T",
+                              "C3960T",
+                              "A4719G",
+                              "T5490C",
+                              "A6204G",
+                              "T6273C",
+                              "T6331C",
+                              "C6493T",
+                              "C6783T",
+                              "C7344T",
+                              "C7827T",
+                              "G7875A",
+                              "T8925C",
+                              "C9972T",
+                              "C10259T",
+                              "C10281T"
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000017",
+                "node_attrs": {
+                  "div": 0.0020899241707618846,
+                  "num_date": {
+                    "value": 2002.8854963734018
+                  },
+                  "clade_membership": {
+                    "value": "WN02"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C435T",
+                      "T10248C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "MF175827",
+                    "node_attrs": {
+                      "div": 0.005386781487753212,
+                      "num_date": {
+                        "value": 2013.5986301369862
+                      },
+                      "accession": "MF175827",
+                      "clade_membership": {
+                        "value": "WN02"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C1560T",
+                          "C1599T",
+                          "C1953T",
+                          "T2049C",
+                          "T2052C",
+                          "C2617T",
+                          "T3021C",
+                          "G3432A",
+                          "A3441G",
+                          "T3489C",
+                          "A3783G",
+                          "T3993C",
+                          "T4101C",
+                          "C4563T",
+                          "A4719T",
+                          "A4740G",
+                          "C5001T",
+                          "T5127C",
+                          "A5151T",
+                          "T5577C",
+                          "C5589T",
+                          "C6069T",
+                          "G6474A",
+                          "A6771C",
+                          "C6783T",
+                          "A6834G",
+                          "G6879A",
+                          "C7068T",
+                          "C7326T",
+                          "A7530G",
+                          "C7980T",
+                          "A8487G",
+                          "C8706A",
+                          "T9375C",
+                          "G10269A",
+                          "A10389G"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000018",
+                    "node_attrs": {
+                      "div": 0.0045468052234281485,
+                      "num_date": {
+                        "value": 2008.1191774777428
+                      },
+                      "clade_membership": {
+                        "value": "WN02"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C340T",
+                          "G1662A",
+                          "C1750T",
+                          "C3501T",
+                          "T3528C",
+                          "C3912T",
+                          "C3969T",
+                          "G4088A",
+                          "T4530C",
+                          "C4749T",
+                          "T5400C",
+                          "C5457T",
+                          "C5889T",
+                          "G6063T",
+                          "T6165C",
+                          "T6312C",
+                          "T6540C",
+                          "T6618C",
+                          "A7395C",
+                          "C7419T",
+                          "C7527T",
+                          "C7602T",
+                          "A7635G",
+                          "C7731T",
+                          "C9381T",
+                          "C9687T",
+                          "C10317T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "MF175865",
+                        "node_attrs": {
+                          "div": 0.007188434871295689,
+                          "num_date": {
+                            "value": 2015.7082191780821
+                          },
+                          "accession": "MF175865",
+                          "clade_membership": {
+                            "value": "WN02"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A459G",
+                              "C963T",
+                              "T1368C",
+                              "T1647C",
+                              "G2031A",
+                              "T2466C",
+                              "A3429G",
+                              "C3504T",
+                              "C3720T",
+                              "T4564C",
+                              "C5142T",
+                              "C5913T",
+                              "A6276G",
+                              "C6444T",
+                              "C6747T",
+                              "C7176T",
+                              "C7236T",
+                              "G7368A",
+                              "A7437C",
+                              "A7500G",
+                              "T7759C",
+                              "C7938T",
+                              "C8235T",
+                              "T9348C",
+                              "C9703T",
+                              "C9996T",
+                              "T10062C",
+                              "T10414C",
+                              "C10565T"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000019",
+                        "node_attrs": {
+                          "div": 0.005455410830260004,
+                          "num_date": {
+                            "value": 2009.7290111682325
+                          },
+                          "clade_membership": {
+                            "value": "WN02"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C2109T",
+                              "C2304T",
+                              "G7812A",
+                              "C7893T",
+                              "C8361A",
+                              "C8491T",
+                              "C8565T",
+                              "C8607T",
+                              "T8778A",
+                              "G8985A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "KY216155",
+                            "node_attrs": {
+                              "div": 0.006637240935042122,
+                              "num_date": {
+                                "value": 2012.5806010928961
+                              },
+                              "accession": "KY216155",
+                              "clade_membership": {
+                                "value": "WN02"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T513C",
+                                  "C966T",
+                                  "G1116A",
+                                  "C3888T",
+                                  "C4650T",
+                                  "C5886T",
+                                  "A6627G",
+                                  "T7516C",
+                                  "C7587T",
+                                  "C10296T",
+                                  "T10493C",
+                                  "G10511A",
+                                  "C10914T"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "KJ501434",
+                            "node_attrs": {
+                              "div": 0.007183755341801694,
+                              "num_date": {
+                                "value": 2012.577868852459
+                              },
+                              "accession": "KJ501434",
+                              "clade_membership": {
+                                "value": "WN02"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G19A",
+                                  "C422T",
+                                  "C1911T",
+                                  "T2475C",
+                                  "T3171C",
+                                  "G3697A",
+                                  "C4129T",
+                                  "C4527A",
+                                  "G5856A",
+                                  "T6639C",
+                                  "C6675T",
+                                  "A6901G",
+                                  "C9723T",
+                                  "C9846T",
+                                  "C9865T",
+                                  "C10305T",
+                                  "C10393T",
+                                  "G10703A",
+                                  "A10979T"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000022",
+                            "node_attrs": {
+                              "div": 0.006454904901544643,
+                              "num_date": {
+                                "value": 2011.2709662553082
+                              },
+                              "clade_membership": {
+                                "value": "WN02"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A981T",
+                                  "A4294G",
+                                  "T4764C",
+                                  "C5553T",
+                                  "T6646C",
+                                  "T8451C",
+                                  "T8586C",
+                                  "C9229T",
+                                  "C9660T",
+                                  "C9702T",
+                                  "C10059T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "KX547456",
+                                "node_attrs": {
+                                  "div": 0.006818416236340259,
+                                  "num_date": {
+                                    "value": 2012.5806010928961
+                                  },
+                                  "accession": "KX547456",
+                                  "clade_membership": {
+                                    "value": "WN02"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T3465C",
+                                      "C4635T",
+                                      "G4656A",
+                                      "T5181C"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000023",
+                                "node_attrs": {
+                                  "div": 0.006636468829301875,
+                                  "num_date": {
+                                    "value": 2011.4497334011653
+                                  },
+                                  "clade_membership": {
+                                    "value": "WN02"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1830C",
+                                      "C3504T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KX547286",
+                                    "node_attrs": {
+                                      "div": 0.008547937354972321,
+                                      "num_date": {
+                                        "value": 2015.672602739726
+                                      },
+                                      "accession": "KX547286",
+                                      "clade_membership": {
+                                        "value": "WN02"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1150C",
+                                          "C1560T",
+                                          "G1575T",
+                                          "C3570T",
+                                          "C3646T",
+                                          "T3732C",
+                                          "C4227T",
+                                          "T4636G",
+                                          "T5007C",
+                                          "C5445T",
+                                          "G6886A",
+                                          "T7053C",
+                                          "A7191G",
+                                          "A7437G",
+                                          "C7980T",
+                                          "T9039C",
+                                          "T9702C",
+                                          "G10258A",
+                                          "A10504G",
+                                          "T10714C",
+                                          "C10753T"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "KT020853",
+                                    "node_attrs": {
+                                      "div": 0.008831654508794296,
+                                      "num_date": {
+                                        "value": 2014.6671232876713
+                                      },
+                                      "accession": "KT020853",
+                                      "clade_membership": {
+                                        "value": "WN02"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G268A",
+                                          "C1077T",
+                                          "T1818C",
+                                          "T2439C",
+                                          "G2601A",
+                                          "A2838G",
+                                          "G3012T",
+                                          "G3378A",
+                                          "G4025A",
+                                          "T4138C",
+                                          "A4599T",
+                                          "T4749A",
+                                          "T5190C",
+                                          "T5583C",
+                                          "A7101G",
+                                          "T7461C",
+                                          "C7509T",
+                                          "G7686T",
+                                          "A8136T",
+                                          "A8202G",
+                                          "T8217C",
+                                          "A8621T",
+                                          "C9618T",
+                                          "C10083T"
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000024",
+                            "node_attrs": {
+                              "div": 0.0055461915249319284,
+                              "num_date": {
+                                "value": 2009.9164533594578
+                              },
+                              "clade_membership": {
+                                "value": "WN02"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T10459C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "KX547548",
+                                "node_attrs": {
+                                  "div": 0.008096606773196994,
+                                  "num_date": {
+                                    "value": 2014.6698630136987
+                                  },
+                                  "accession": "KX547548",
+                                  "clade_membership": {
+                                    "value": "WN02"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G237A",
+                                      "T1761C",
+                                      "G1851A",
+                                      "C2235T",
+                                      "G2402A",
+                                      "C2697T",
+                                      "T2964C",
+                                      "C3297T",
+                                      "C3300T",
+                                      "T3318C",
+                                      "C3931T",
+                                      "T4461C",
+                                      "A6204G",
+                                      "C6385T",
+                                      "C6741T",
+                                      "C6858T",
+                                      "G7226A",
+                                      "A7315T",
+                                      "A7476G",
+                                      "C7980T",
+                                      "C8121T",
+                                      "A8277G",
+                                      "A8676G",
+                                      "C9955T",
+                                      "C10044T",
+                                      "C10393T",
+                                      "C10408T",
+                                      "A10486T"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000025",
+                                "node_attrs": {
+                                  "div": 0.005818581312911761,
+                                  "num_date": {
+                                    "value": 2010.4909925250945
+                                  },
+                                  "clade_membership": {
+                                    "value": "WN02"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C1620T",
+                                      "A7530G",
+                                      "C9996T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "MF175858",
+                                    "node_attrs": {
+                                      "div": 0.00800335042967166,
+                                      "num_date": {
+                                        "value": 2015.7246575342465
+                                      },
+                                      "accession": "MF175858",
+                                      "clade_membership": {
+                                        "value": "WN02"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C381T",
+                                          "T429C",
+                                          "C708T",
+                                          "G1125A",
+                                          "T1656C",
+                                          "C2196T",
+                                          "T2289C",
+                                          "G3153T",
+                                          "G4008A",
+                                          "C4047T",
+                                          "C4054T",
+                                          "T4101C",
+                                          "A4362G",
+                                          "C6030T",
+                                          "T6132C",
+                                          "T6273C",
+                                          "G7291A",
+                                          "A7338G",
+                                          "T7731C",
+                                          "C8190T",
+                                          "C8751T",
+                                          "T9264C",
+                                          "A9601G",
+                                          "A10438G"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000026",
+                                    "node_attrs": {
+                                      "div": 0.006090970553900845,
+                                      "num_date": {
+                                        "value": 2011.0826367020898
+                                      },
+                                      "clade_membership": {
+                                        "value": "WN02"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G4941A",
+                                          "A5559G",
+                                          "G8262A"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KX547410",
+                                        "node_attrs": {
+                                          "div": 0.006909288545152715,
+                                          "num_date": {
+                                            "value": 2012.577868852459
+                                          },
+                                          "accession": "KX547410",
+                                          "clade_membership": {
+                                            "value": "WN02"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T1923C",
+                                              "A2193G",
+                                              "A2205G",
+                                              "C3487T",
+                                              "G4116A",
+                                              "A5922G",
+                                              "C8919T",
+                                              "T9264C",
+                                              "G9319A"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "MF175831",
+                                        "node_attrs": {
+                                          "div": 0.007637987628637378,
+                                          "num_date": {
+                                            "value": 2015.7246575342465
+                                          },
+                                          "accession": "MF175831",
+                                          "clade_membership": {
+                                            "value": "WN02"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G583A",
+                                              "C687T",
+                                              "A1342G",
+                                              "C1467T",
+                                              "C2274T",
+                                              "G2457T",
+                                              "G2505A",
+                                              "G3012A",
+                                              "T4749A",
+                                              "G4911A",
+                                              "T6615C",
+                                              "G7017T",
+                                              "C7359T",
+                                              "T7830C",
+                                              "C7980T",
+                                              "A8439G",
+                                              "A10464G"
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000028",
+                                "node_attrs": {
+                                  "div": 0.005818582267562537,
+                                  "num_date": {
+                                    "value": 2010.4934929180042
+                                  },
+                                  "clade_membership": {
+                                    "value": "WN02"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C5865T",
+                                      "A6162G",
+                                      "T9027C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KX547460",
+                                    "node_attrs": {
+                                      "div": 0.006909970211980966,
+                                      "num_date": {
+                                        "value": 2013.5958904109589
+                                      },
+                                      "accession": "KX547460",
+                                      "clade_membership": {
+                                        "value": "WN02"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A658G",
+                                          "G728A",
+                                          "T3794C",
+                                          "A4002G",
+                                          "T4212C",
+                                          "T4338C",
+                                          "C4602T",
+                                          "C5082T",
+                                          "C5247T",
+                                          "T5397C",
+                                          "C5526T",
+                                          "T6936C"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000029",
+                                    "node_attrs": {
+                                      "div": 0.006909000111025164,
+                                      "num_date": {
+                                        "value": 2012.4965610174518
+                                      },
+                                      "clade_membership": {
+                                        "value": "WN02"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C816T",
+                                          "T2267C",
+                                          "T2649C",
+                                          "C3297T",
+                                          "C3408T",
+                                          "A6204G",
+                                          "A6628G",
+                                          "C7150T",
+                                          "G7197A",
+                                          "A7818G",
+                                          "C9030T",
+                                          "G10093A"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "MF175839",
+                                        "node_attrs": {
+                                          "div": 0.007727386512452386,
+                                          "num_date": {
+                                            "value": 2014.6561643835616
+                                          },
+                                          "accession": "MF175839",
+                                          "clade_membership": {
+                                            "value": "WN02"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C3762T",
+                                              "T4212C",
+                                              "T4443C",
+                                              "T4621C",
+                                              "T4692C",
+                                              "C5082T",
+                                              "T5385C",
+                                              "C5526T",
+                                              "G9231A"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "MF175863",
+                                        "node_attrs": {
+                                          "div": 0.008000369066135517,
+                                          "num_date": {
+                                            "value": 2014.6753424657534
+                                          },
+                                          "accession": "MF175863",
+                                          "clade_membership": {
+                                            "value": "WN02"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C93T",
+                                              "T3969C",
+                                              "A4088G",
+                                              "T4107C",
+                                              "G4146A",
+                                              "C4530T",
+                                              "T4749C",
+                                              "T4803C",
+                                              "A5280G",
+                                              "C5400T",
+                                              "T5457C",
+                                              "T6063C"
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000030",
+                "node_attrs": {
+                  "div": 0.0022715741787488887,
+                  "num_date": {
+                    "value": 2002.318392206757
+                  },
+                  "clade_membership": {
+                    "value": "SW03"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C660T",
+                      "C6238T",
+                      "G6721A",
+                      "T9264C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KJ145829",
+                    "node_attrs": {
+                      "div": 0.00730209265445163,
+                      "num_date": {
+                        "value": 2010.7191780821918
+                      },
+                      "accession": "KJ145829",
+                      "clade_membership": {
+                        "value": "SW03"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C93T",
+                          "A402C",
+                          "G405A",
+                          "A406G",
+                          "C444T",
+                          "C450T",
+                          "C522T",
+                          "T606C",
+                          "C882T",
+                          "C969T",
+                          "G1116A",
+                          "G1419T",
+                          "C2066T",
+                          "G2437A",
+                          "C2484T",
+                          "G2751A",
+                          "C3435T",
+                          "C3628T",
+                          "G3664T",
+                          "A3793G",
+                          "C3891T",
+                          "C4196T",
+                          "A4221T",
+                          "T4632G",
+                          "T4764C",
+                          "G4899A",
+                          "C4986T",
+                          "T5514C",
+                          "C5553T",
+                          "C5589T",
+                          "C5823T",
+                          "G6009A",
+                          "A6205G",
+                          "T6213C",
+                          "T6237C",
+                          "A6997G",
+                          "A7044G",
+                          "T7137C",
+                          "C7392T",
+                          "C7560T",
+                          "C7672T",
+                          "C7785T",
+                          "C8079T",
+                          "C8517T",
+                          "A9066G",
+                          "A9186G",
+                          "G9189A",
+                          "C9982T",
+                          "C10230T",
+                          "C10296T",
+                          "C10386T",
+                          "C10393T",
+                          "C10422A",
+                          "G10465T",
+                          "G10488T"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000032",
+                    "node_attrs": {
+                      "div": 0.002634809563897521,
+                      "num_date": {
+                        "value": 2003.2057602005343
+                      },
+                      "clade_membership": {
+                        "value": "SW03"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C1329T",
+                          "C1878T",
+                          "T7269C",
+                          "G8784A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KX547552",
+                        "node_attrs": {
+                          "div": 0.005826366728052404,
+                          "num_date": {
+                            "value": 2010.7082191780821
+                          },
+                          "accession": "KX547552",
+                          "clade_membership": {
+                            "value": "SW03"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C315T",
+                              "C431T",
+                              "C450T",
+                              "G951A",
+                              "T1650C",
+                              "C2273T",
+                              "C2592A",
+                              "T2703C",
+                              "A2997G",
+                              "C3066T",
+                              "C3420T",
+                              "T3444C",
+                              "T3633C",
+                              "G3768A",
+                              "A4119G",
+                              "C4629T",
+                              "G5304A",
+                              "C5517A",
+                              "T5617C",
+                              "G5769A",
+                              "C6345T",
+                              "C6741T",
+                              "T6885C",
+                              "C7031G",
+                              "A7725G",
+                              "A7929G",
+                              "G8445A",
+                              "A8454G",
+                              "A8532G",
+                              "C8670T",
+                              "C9634T",
+                              "C10305T",
+                              "C10422T",
+                              "T10431C",
+                              "T10485G"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "KX547375",
+                        "node_attrs": {
+                          "div": 0.006282903815379095,
+                          "num_date": {
+                            "value": 2011.686301369863
+                          },
+                          "accession": "KX547375",
+                          "clade_membership": {
+                            "value": "SW03"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G291A",
+                              "T513C",
+                              "A651C",
+                              "C1065T",
+                              "C1227T",
+                              "T2412C",
+                              "T2649C",
+                              "C2697T",
+                              "G2721A",
+                              "T3363C",
+                              "C3744T",
+                              "G3816A",
+                              "C3825T",
+                              "T3850C",
+                              "C4036T",
+                              "G4191A",
+                              "A4230G",
+                              "C4272T",
+                              "C4602T",
+                              "C4707T",
+                              "C5019T",
+                              "A5172G",
+                              "C5224T",
+                              "T5400C",
+                              "A5607T",
+                              "A5991G",
+                              "C6088A",
+                              "T6138C",
+                              "C6672T",
+                              "T8157C",
+                              "G8739A",
+                              "C8883T",
+                              "T9180C",
+                              "C9264A",
+                              "C9703T",
+                              "T9801C",
+                              "T9960C",
+                              "T10143C",
+                              "C10314T",
+                              "C10435T"
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000033",
+                    "node_attrs": {
+                      "div": 0.002453160451698079,
+                      "num_date": {
+                        "value": 2002.509543317643
+                      },
+                      "clade_membership": {
+                        "value": "SW03"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C8550T",
+                          "C9660T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000034",
+                        "node_attrs": {
+                          "div": 0.003998613852932265,
+                          "num_date": {
+                            "value": 2007.1301863538804
+                          },
+                          "clade_membership": {
+                            "value": "SW03"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G1244A",
+                              "G1743A",
+                              "G3705A",
+                              "G3735A",
+                              "C3825T",
+                              "C4196T",
+                              "C4926T",
+                              "C5737T",
+                              "G6318A",
+                              "G6393A",
+                              "G6495A",
+                              "C7275T",
+                              "C7959T",
+                              "T8586C",
+                              "C9013T",
+                              "C9207T",
+                              "T11029C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "KX547361",
+                            "node_attrs": {
+                              "div": 0.005727644018608372,
+                              "num_date": {
+                                "value": 2010.6123287671232
+                              },
+                              "accession": "KX547361",
+                              "clade_membership": {
+                                "value": "SW03"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G186A",
+                                  "T247C",
+                                  "T3138C",
+                                  "G4059A",
+                                  "C4189T",
+                                  "T5052C",
+                                  "G5112A",
+                                  "G5614A",
+                                  "T6384C",
+                                  "G6624A",
+                                  "C6801T",
+                                  "C7806T",
+                                  "T7848C",
+                                  "C9144T",
+                                  "C9151T",
+                                  "T9369C",
+                                  "T10032C",
+                                  "C10435T",
+                                  "A10464G"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000035",
+                            "node_attrs": {
+                              "div": 0.004816294457690639,
+                              "num_date": {
+                                "value": 2010.1690099221562
+                              },
+                              "clade_membership": {
+                                "value": "SW03"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C1285T",
+                                  "T3537C",
+                                  "G3652A",
+                                  "C3808T",
+                                  "T5061C",
+                                  "T6643A",
+                                  "C8118T",
+                                  "T9711C",
+                                  "A10176G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "KC333375",
+                                "node_attrs": {
+                                  "div": 0.005270777577493396,
+                                  "num_date": {
+                                    "value": 2012.5915300546449
+                                  },
+                                  "accession": "KC333375",
+                                  "clade_membership": {
+                                    "value": "SW03"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T735C",
+                                      "A3195C",
+                                      "C3762T",
+                                      "G6177A",
+                                      "C8844T"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "KJ501222",
+                                "node_attrs": {
+                                  "div": 0.006271161466142044,
+                                  "num_date": {
+                                    "value": 2012.5969945355191
+                                  },
+                                  "accession": "KJ501222",
+                                  "clade_membership": {
+                                    "value": "SW03"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1071G",
+                                      "T1332C",
+                                      "G1419C",
+                                      "C2079T",
+                                      "C2413T",
+                                      "C5649T",
+                                      "C5784T",
+                                      "G6414A",
+                                      "C7267T",
+                                      "T7268C",
+                                      "A7635G",
+                                      "G8016A",
+                                      "G9231A",
+                                      "T9352C",
+                                      "C10317T",
+                                      "A10658G"
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000036",
+                        "node_attrs": {
+                          "div": 0.0025439456531948824,
+                          "num_date": {
+                            "value": 2002.5912478213827
+                          },
+                          "clade_membership": {
+                            "value": "SW03"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T6936C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000037",
+                            "node_attrs": {
+                              "div": 0.005183732739417977,
+                              "num_date": {
+                                "value": 2007.0833602564437
+                              },
+                              "clade_membership": {
+                                "value": "SW03"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T570C",
+                                  "T825C",
+                                  "C1077T",
+                                  "C1272T",
+                                  "T1368C",
+                                  "C1893T",
+                                  "T1899C",
+                                  "C1900A",
+                                  "C2493T",
+                                  "A2983C",
+                                  "T4030C",
+                                  "A4110G",
+                                  "A4494T",
+                                  "A5760G",
+                                  "G5790T",
+                                  "G6156A",
+                                  "T6213C",
+                                  "A6432G",
+                                  "A6462G",
+                                  "C6903T",
+                                  "C7419T",
+                                  "C7698T",
+                                  "A7742G",
+                                  "A8261G",
+                                  "T8700C",
+                                  "T8727C",
+                                  "G10377A",
+                                  "C10408T",
+                                  "C10435T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "KF704153",
+                                "node_attrs": {
+                                  "div": 0.006912087784821584,
+                                  "num_date": {
+                                    "value": 2010.5958904109589
+                                  },
+                                  "accession": "KF704153",
+                                  "clade_membership": {
+                                    "value": "SW03"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T170C",
+                                      "C1173T",
+                                      "C4881T",
+                                      "G4887A",
+                                      "G5175A",
+                                      "C5730T",
+                                      "G6990A",
+                                      "A8403G",
+                                      "A8414G",
+                                      "C8566T",
+                                      "A8621G",
+                                      "C8883T",
+                                      "C9123A",
+                                      "G10039T",
+                                      "A10113G",
+                                      "T10459C",
+                                      "A10518G",
+                                      "G10532A",
+                                      "A10977T"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000038",
+                                "node_attrs": {
+                                  "div": 0.006183208615160492,
+                                  "num_date": {
+                                    "value": 2008.6664319438923
+                                  },
+                                  "clade_membership": {
+                                    "value": "SW03"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A507G",
+                                      "T2391C",
+                                      "C2593T",
+                                      "A3423G",
+                                      "A6204G",
+                                      "T7626C",
+                                      "T9951C",
+                                      "C10008T",
+                                      "T10041G",
+                                      "T10053C",
+                                      "T10451C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "JQ700438",
+                                    "node_attrs": {
+                                      "div": 0.008094008687838767,
+                                      "num_date": {
+                                        "value": 2011.5821917808219
+                                      },
+                                      "accession": "JQ700438",
+                                      "clade_membership": {
+                                        "value": "SW03"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A271C",
+                                          "C1470T",
+                                          "G1482A",
+                                          "T1719C",
+                                          "G2654A",
+                                          "G3091A",
+                                          "C4728T",
+                                          "G5781A",
+                                          "C6552T",
+                                          "T6712C",
+                                          "G6879A",
+                                          "C6936T",
+                                          "A7951T",
+                                          "A8053C",
+                                          "A8277G",
+                                          "G8493A",
+                                          "T8554A",
+                                          "T8652C",
+                                          "T9246C",
+                                          "A10092G",
+                                          "A10564G"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000039",
+                                    "node_attrs": {
+                                      "div": 0.007091751480012013,
+                                      "num_date": {
+                                        "value": 2010.8223667956408
+                                      },
+                                      "clade_membership": {
+                                        "value": "SW03"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T247C",
+                                          "C2820T",
+                                          "T3633C",
+                                          "C3808T",
+                                          "C5132T",
+                                          "G5718A",
+                                          "T6711C",
+                                          "G6974A",
+                                          "G9138T",
+                                          "T10437C"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KJ501170",
+                                        "node_attrs": {
+                                          "div": 0.007273911917900915,
+                                          "num_date": {
+                                            "value": 2011.5520547945205
+                                          },
+                                          "accession": "KJ501170",
+                                          "clade_membership": {
+                                            "value": "SW03"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T6674C",
+                                              "C6676T"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "KR348993",
+                                        "node_attrs": {
+                                          "div": 0.007548658772139522,
+                                          "num_date": {
+                                            "value": 2011.5520547945205
+                                          },
+                                          "accession": "KR348993",
+                                          "clade_membership": {
+                                            "value": "SW03"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C9151G",
+                                              "T9152A",
+                                              "G9154T",
+                                              "G9155T",
+                                              "T9156C"
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000040",
+                            "node_attrs": {
+                              "div": 0.0031797806932626882,
+                              "num_date": {
+                                "value": 2003.2762180858228
+                              },
+                              "clade_membership": {
+                                "value": "SW03"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A1320G",
+                                  "C1974T",
+                                  "T3399C",
+                                  "T6765C",
+                                  "T7269C",
+                                  "A8621G",
+                                  "T10062C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "MF175815",
+                                "node_attrs": {
+                                  "div": 0.007214829923826889,
+                                  "num_date": {
+                                    "value": 2012.7718579234972
+                                  },
+                                  "accession": "MF175815",
+                                  "clade_membership": {
+                                    "value": "SW03"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C882T",
+                                      "C1329T",
+                                      "C1434T",
+                                      "C1533T",
+                                      "T3180C",
+                                      "C3282T",
+                                      "T3357C",
+                                      "T3456C",
+                                      "C3898T",
+                                      "C4347T",
+                                      "T4464C",
+                                      "G4725C",
+                                      "C4728A",
+                                      "G4731A",
+                                      "T4746C",
+                                      "A4962G",
+                                      "G4983A",
+                                      "G5220A",
+                                      "C5631A",
+                                      "T5643C",
+                                      "A5995G",
+                                      "C6105T",
+                                      "G6510A",
+                                      "T6711G",
+                                      "C6720T",
+                                      "A6843G",
+                                      "G7017A",
+                                      "C7071T",
+                                      "C7078T",
+                                      "C7266G",
+                                      "T7281C",
+                                      "C7377T",
+                                      "A7519T",
+                                      "G7548A",
+                                      "A7635G",
+                                      "A7691G",
+                                      "T7830C",
+                                      "C7989T",
+                                      "T8616C",
+                                      "C8823T",
+                                      "A9654G",
+                                      "T9819C",
+                                      "T9873C",
+                                      "T10323A"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000041",
+                                "node_attrs": {
+                                  "div": 0.0032705676695150487,
+                                  "num_date": {
+                                    "value": 2003.375086876088
+                                  },
+                                  "clade_membership": {
+                                    "value": "SW03"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C10393T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000042",
+                                    "node_attrs": {
+                                      "div": 0.004088220005676518,
+                                      "num_date": {
+                                        "value": 2005.7241143697431
+                                      },
+                                      "clade_membership": {
+                                        "value": "SW03"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G1185A",
+                                          "A3783G",
+                                          "C4227T",
+                                          "A5487G",
+                                          "A6204G",
+                                          "C6865T",
+                                          "A7746G",
+                                          "C8442T",
+                                          "G10258A"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "MG004537",
+                                        "node_attrs": {
+                                          "div": 0.007832144622088363,
+                                          "num_date": {
+                                            "value": 2014.6561643835616
+                                          },
+                                          "accession": "MG004537",
+                                          "clade_membership": {
+                                            "value": "SW03"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A218G",
+                                              "C450T",
+                                              "T606C",
+                                              "C783T",
+                                              "T960G",
+                                              "C975T",
+                                              "G1098A",
+                                              "G1485A",
+                                              "T1908C",
+                                              "C1961T",
+                                              "A2847G",
+                                              "C2958T",
+                                              "T3528C",
+                                              "C3771T",
+                                              "A4125G",
+                                              "C4926T",
+                                              "A5259G",
+                                              "C5271T",
+                                              "T5298C",
+                                              "C5997T",
+                                              "T6223C",
+                                              "A6234G",
+                                              "A7661G",
+                                              "T8184C",
+                                              "C8751T",
+                                              "T8778C",
+                                              "T8856C",
+                                              "C9072T",
+                                              "T9369C",
+                                              "C9510T",
+                                              "C9532T",
+                                              "C9600T",
+                                              "A9861G",
+                                              "T10456C",
+                                              "A10478G",
+                                              "G10515A",
+                                              "C10523T",
+                                              "G10582A",
+                                              "C10695T",
+                                              "A10814T",
+                                              "C10825T"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000043",
+                                        "node_attrs": {
+                                          "div": 0.004906025547581969,
+                                          "num_date": {
+                                            "value": 2007.9981924922142
+                                          },
+                                          "clade_membership": {
+                                            "value": "SW03"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T884C",
+                                              "T1071C",
+                                              "G2268A",
+                                              "G2934A",
+                                              "A3126G",
+                                              "G3246C",
+                                              "A4094G",
+                                              "A4962G",
+                                              "A9336G"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "KM012172",
+                                            "node_attrs": {
+                                              "div": 0.007090005265331679,
+                                              "num_date": {
+                                                "value": 2012.5833333333333
+                                              },
+                                              "accession": "KM012172",
+                                              "clade_membership": {
+                                                "value": "SW03"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T930C",
+                                                  "T1974C",
+                                                  "C2760T",
+                                                  "T3171A",
+                                                  "A3347G",
+                                                  "G3747A",
+                                                  "T3850C",
+                                                  "T6138C",
+                                                  "G6204A",
+                                                  "T6238C",
+                                                  "G6581A",
+                                                  "C6918T",
+                                                  "T7021C",
+                                                  "C7233T",
+                                                  "T7626C",
+                                                  "C8401T",
+                                                  "G8420A",
+                                                  "A9236T",
+                                                  "C9241T",
+                                                  "C9255T",
+                                                  "C9262A",
+                                                  "C9264A",
+                                                  "G9336T",
+                                                  "T9660C"
+                                                ]
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000044",
+                                            "node_attrs": {
+                                              "div": 0.004996806910733937,
+                                              "num_date": {
+                                                "value": 2008.2287437958198
+                                              },
+                                              "clade_membership": {
+                                                "value": "SW03"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C6189T"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "JX015523",
+                                                "node_attrs": {
+                                                  "div": 0.006087560477582222,
+                                                  "num_date": {
+                                                    "value": 2010.664383561644
+                                                  },
+                                                  "accession": "JX015523",
+                                                  "clade_membership": {
+                                                    "value": "SW03"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T1536C",
+                                                      "T3661C",
+                                                      "C6072T",
+                                                      "G7080A",
+                                                      "C7116T",
+                                                      "C7296T",
+                                                      "A7661G",
+                                                      "G7811A",
+                                                      "G8493A",
+                                                      "A8745G",
+                                                      "G10455A",
+                                                      "A10737G"
+                                                    ]
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000045",
+                                                "node_attrs": {
+                                                  "div": 0.006998053764460215,
+                                                  "num_date": {
+                                                    "value": 2013.4116548158281
+                                                  },
+                                                  "clade_membership": {
+                                                    "value": "SW03"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "G96A",
+                                                      "C1056T",
+                                                      "C1122T",
+                                                      "T2241G",
+                                                      "T2356C",
+                                                      "C2388T",
+                                                      "A2511G",
+                                                      "T3105C",
+                                                      "A3201G",
+                                                      "A4314G",
+                                                      "C5913T",
+                                                      "A6015G",
+                                                      "C6741T",
+                                                      "C7374T",
+                                                      "C8436T",
+                                                      "G8465A",
+                                                      "T9948A",
+                                                      "C10314T",
+                                                      "A10365G",
+                                                      "T10374C",
+                                                      "G10470A",
+                                                      "C10590T"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MF175866",
+                                                    "node_attrs": {
+                                                      "div": 0.007452552469184303,
+                                                      "num_date": {
+                                                        "value": 2014.6890410958904
+                                                      },
+                                                      "accession": "MF175866",
+                                                      "clade_membership": {
+                                                        "value": "SW03"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1107C",
+                                                          "C1671T",
+                                                          "C3204A",
+                                                          "T8529C",
+                                                          "C10373T"
+                                                        ]
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000046",
+                                                    "node_attrs": {
+                                                      "div": 0.007270494466354892,
+                                                      "num_date": {
+                                                        "value": 2013.9960277220257
+                                                      },
+                                                      "clade_membership": {
+                                                        "value": "SW03"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "G4094A",
+                                                          "A10814T",
+                                                          "C10825T"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "MG004533",
+                                                        "node_attrs": {
+                                                          "div": 0.007361479270739336,
+                                                          "num_date": {
+                                                            "value": 2014.4205479452055
+                                                          },
+                                                          "accession": "MG004533",
+                                                          "clade_membership": {
+                                                            "value": "SW03"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C1907T"
+                                                            ]
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "MG004540",
+                                                        "node_attrs": {
+                                                          "div": 0.008180699794879528,
+                                                          "num_date": {
+                                                            "value": 2015.3602739726027
+                                                          },
+                                                          "accession": "MG004540",
+                                                          "clade_membership": {
+                                                            "value": "SW03"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G630A",
+                                                              "A2268G",
+                                                              "C2889T",
+                                                              "T4461C",
+                                                              "G4962A",
+                                                              "C5526T",
+                                                              "T5973C",
+                                                              "C6942T",
+                                                              "C8424T",
+                                                              "T9637C"
+                                                            ]
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000047",
+                                    "node_attrs": {
+                                      "div": 0.0033613578544422346,
+                                      "num_date": {
+                                        "value": 2003.4675844681199
+                                      },
+                                      "clade_membership": {
+                                        "value": "SW03"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A7209T"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000048",
+                                        "node_attrs": {
+                                          "div": 0.008196404032870617,
+                                          "num_date": {
+                                            "value": 2011.3578805505506
+                                          },
+                                          "clade_membership": {
+                                            "value": "SW03"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C561T",
+                                              "C732T",
+                                              "C870T",
+                                              "G1117A",
+                                              "T1290C",
+                                              "G1324A",
+                                              "T1407C",
+                                              "T1890G",
+                                              "T1971C",
+                                              "C2007T",
+                                              "C2445T",
+                                              "C2604T",
+                                              "G2631T",
+                                              "G2736T",
+                                              "C2792T",
+                                              "G2872A",
+                                              "T2880C",
+                                              "A3126G",
+                                              "T3363C",
+                                              "A3394T",
+                                              "A3612G",
+                                              "T3792C",
+                                              "T3844C",
+                                              "T3850C",
+                                              "T3989C",
+                                              "A4072G",
+                                              "C4164T",
+                                              "G4389A",
+                                              "A4494G",
+                                              "C4800T",
+                                              "T4992C",
+                                              "C5193T",
+                                              "C5481T",
+                                              "A5520G",
+                                              "G5718A",
+                                              "T5970C",
+                                              "A6534G",
+                                              "T6585C",
+                                              "C6807A",
+                                              "A6843G",
+                                              "G7749A",
+                                              "G7757A",
+                                              "C7804T",
+                                              "G7995A",
+                                              "C8220T",
+                                              "A8849G",
+                                              "G9006A",
+                                              "C9297T",
+                                              "T9339C",
+                                              "G9543A",
+                                              "T9831C",
+                                              "C9846T",
+                                              "T10248A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "KR348976",
+                                            "node_attrs": {
+                                              "div": 0.008196404032870617,
+                                              "num_date": {
+                                                "value": 2011.5438356164384
+                                              },
+                                              "accession": "KR348976",
+                                              "clade_membership": {
+                                                "value": "SW03"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "KR348977",
+                                            "node_attrs": {
+                                              "div": 0.008470257166386882,
+                                              "num_date": {
+                                                "value": 2011.6205479452055
+                                              },
+                                              "accession": "KR348977",
+                                              "clade_membership": {
+                                                "value": "SW03"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T2438C",
+                                                  "T6882C",
+                                                  "C7161T"
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000049",
+                                        "node_attrs": {
+                                          "div": 0.003452137659227677,
+                                          "num_date": {
+                                            "value": 2003.5806598989477
+                                          },
+                                          "clade_membership": {
+                                            "value": "SW03"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G2661A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "KR348981",
+                                            "node_attrs": {
+                                              "div": 0.008144412588638749,
+                                              "num_date": {
+                                                "value": 2011.0232876712328
+                                              },
+                                              "accession": "KR348981",
+                                              "clade_membership": {
+                                                "value": "SW03"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C340T",
+                                                  "T585C",
+                                                  "C708T",
+                                                  "C720T",
+                                                  "G780A",
+                                                  "C816T",
+                                                  "T1062C",
+                                                  "T1206C",
+                                                  "T1368C",
+                                                  "C1632T",
+                                                  "C1797T",
+                                                  "A2217G",
+                                                  "G2361A",
+                                                  "A2861G",
+                                                  "A3049G",
+                                                  "A3114G",
+                                                  "T3228C",
+                                                  "G3434C",
+                                                  "T3537C",
+                                                  "A3690G",
+                                                  "G3890A",
+                                                  "C4036T",
+                                                  "C4132T",
+                                                  "T4212G",
+                                                  "C4269T",
+                                                  "A4716G",
+                                                  "T4929C",
+                                                  "A5623G",
+                                                  "T5652C",
+                                                  "A5756C",
+                                                  "G6048A",
+                                                  "C6320T",
+                                                  "C6367T",
+                                                  "G6390A",
+                                                  "G6447A",
+                                                  "G6709A",
+                                                  "C6783T",
+                                                  "A6938G",
+                                                  "C6951T",
+                                                  "G7206A",
+                                                  "G7257A",
+                                                  "G7425A",
+                                                  "T7626C",
+                                                  "C7873T",
+                                                  "C8004T",
+                                                  "A8498G",
+                                                  "C9306T",
+                                                  "T9378C",
+                                                  "C9514T",
+                                                  "C9624T",
+                                                  "C9939T"
+                                                ]
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000050",
+                                            "node_attrs": {
+                                              "div": 0.006091753186801345,
+                                              "num_date": {
+                                                "value": 2007.9958465064105
+                                              },
+                                              "clade_membership": {
+                                                "value": "SW03"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T458C",
+                                                  "C534A",
+                                                  "C933T",
+                                                  "C1089T",
+                                                  "C1302T",
+                                                  "T1822C",
+                                                  "C2034T",
+                                                  "C2388T",
+                                                  "T2649C",
+                                                  "T4101C",
+                                                  "T4380C",
+                                                  "C4473T",
+                                                  "T5403C",
+                                                  "T5898C",
+                                                  "G6420A",
+                                                  "A7077G",
+                                                  "A7473G",
+                                                  "T7566C",
+                                                  "C7647T",
+                                                  "G8283A",
+                                                  "G8319A",
+                                                  "C8631T",
+                                                  "G9153A",
+                                                  "C9519T",
+                                                  "T9951C",
+                                                  "C10173T",
+                                                  "T10393C",
+                                                  "G10682A",
+                                                  "T11029A"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "KF704147",
+                                                "node_attrs": {
+                                                  "div": 0.007821307115212813,
+                                                  "num_date": {
+                                                    "value": 2010.5821917808219
+                                                  },
+                                                  "accession": "KF704147",
+                                                  "clade_membership": {
+                                                    "value": "SW03"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A50G",
+                                                      "C62T",
+                                                      "T247C",
+                                                      "T367C",
+                                                      "T660C",
+                                                      "T1789A",
+                                                      "C2881G",
+                                                      "C2888G",
+                                                      "T3990C",
+                                                      "G4156A",
+                                                      "C4881T",
+                                                      "G4887A",
+                                                      "A5967G",
+                                                      "T6711G",
+                                                      "A6933G",
+                                                      "A7636G",
+                                                      "A8418G",
+                                                      "T10339C",
+                                                      "A10371G"
+                                                    ]
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000051",
+                                                "node_attrs": {
+                                                  "div": 0.006818587343001167,
+                                                  "num_date": {
+                                                    "value": 2009.7046119259533
+                                                  },
+                                                  "clade_membership": {
+                                                    "value": "SW03"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "G505A",
+                                                      "A579T",
+                                                      "A2833G",
+                                                      "A3516G",
+                                                      "C4749T",
+                                                      "A7000T",
+                                                      "A7896G",
+                                                      "T10736C"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "NODE_0000056",
+                                                    "node_attrs": {
+                                                      "div": 0.007272640393482721,
+                                                      "num_date": {
+                                                        "value": 2010.7027397260274
+                                                      },
+                                                      "clade_membership": {
+                                                        "value": "SW03"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T5430C",
+                                                          "T5496C",
+                                                          "G6871A",
+                                                          "T6885C",
+                                                          "T8601C"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "KR348944",
+                                                        "node_attrs": {
+                                                          "div": 0.007272640393482721,
+                                                          "num_date": {
+                                                            "value": 2010.7027397260274
+                                                          },
+                                                          "accession": "KR348944",
+                                                          "clade_membership": {
+                                                            "value": "SW03"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "KJ501124",
+                                                        "node_attrs": {
+                                                          "div": 0.007272640393482721,
+                                                          "num_date": {
+                                                            "value": 2010.7027397260274
+                                                          },
+                                                          "accession": "KJ501124",
+                                                          "clade_membership": {
+                                                            "value": "SW03"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000052",
+                                                    "node_attrs": {
+                                                      "div": 0.006909365943360312,
+                                                      "num_date": {
+                                                        "value": 2010.0547647143242
+                                                      },
+                                                      "clade_membership": {
+                                                        "value": "SW03"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C9411T"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "NODE_0000053",
+                                                        "node_attrs": {
+                                                          "div": 0.007090959980485969,
+                                                          "num_date": {
+                                                            "value": 2010.434246577838
+                                                          },
+                                                          "clade_membership": {
+                                                            "value": "SW03"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T2289A",
+                                                              "A10415G"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "KJ501117",
+                                                            "node_attrs": {
+                                                              "div": 0.007090959980485969,
+                                                              "num_date": {
+                                                                "value": 2010.434246577838
+                                                              },
+                                                              "accession": "KJ501117",
+                                                              "clade_membership": {
+                                                                "value": "SW03"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "KR348937",
+                                                            "node_attrs": {
+                                                              "div": 0.007090959980485969,
+                                                              "num_date": {
+                                                                "value": 2010.5958904109589
+                                                              },
+                                                              "accession": "KR348937",
+                                                              "clade_membership": {
+                                                                "value": "SW03"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000054",
+                                                        "node_attrs": {
+                                                          "div": 0.007000144890461599,
+                                                          "num_date": {
+                                                            "value": 2010.4342465753425
+                                                          },
+                                                          "clade_membership": {
+                                                            "value": "SW03"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A4412G"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "KJ501120",
+                                                            "node_attrs": {
+                                                              "div": 0.007000144890461599,
+                                                              "num_date": {
+                                                                "value": 2010.4342465753425
+                                                              },
+                                                              "accession": "KJ501120",
+                                                              "clade_membership": {
+                                                                "value": "SW03"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "KR348940",
+                                                            "node_attrs": {
+                                                              "div": 0.007000144890461599,
+                                                              "num_date": {
+                                                                "value": 2010.5958904109589
+                                                              },
+                                                              "accession": "KR348940",
+                                                              "clade_membership": {
+                                                                "value": "SW03"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000057",
+                                                    "node_attrs": {
+                                                      "div": 0.0075452541355757905,
+                                                      "num_date": {
+                                                        "value": 2010.8234781229442
+                                                      },
+                                                      "clade_membership": {
+                                                        "value": "SW03"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C1386T",
+                                                          "G1593A",
+                                                          "T2764C",
+                                                          "T3093C",
+                                                          "C5997T",
+                                                          "C7873T",
+                                                          "C9708T",
+                                                          "C10310T"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "NODE_0000058",
+                                                        "node_attrs": {
+                                                          "div": 0.007726824891387584,
+                                                          "num_date": {
+                                                            "value": 2011.124657536742
+                                                          },
+                                                          "clade_membership": {
+                                                            "value": "SW03"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C7416T",
+                                                              "T10477C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "KJ501118",
+                                                            "node_attrs": {
+                                                              "div": 0.007726824891387584,
+                                                              "num_date": {
+                                                                "value": 2011.124657536742
+                                                              },
+                                                              "accession": "KJ501118",
+                                                              "clade_membership": {
+                                                                "value": "SW03"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "KR348938",
+                                                            "node_attrs": {
+                                                              "div": 0.007726824891387584,
+                                                              "num_date": {
+                                                                "value": 2011.124657536742
+                                                              },
+                                                              "accession": "KR348938",
+                                                              "clade_membership": {
+                                                                "value": "SW03"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000059",
+                                                        "node_attrs": {
+                                                          "div": 0.007908457701847687,
+                                                          "num_date": {
+                                                            "value": 2011.538035751911
+                                                          },
+                                                          "clade_membership": {
+                                                            "value": "SW03"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G362A",
+                                                              "C3984T",
+                                                              "A7101G",
+                                                              "C7170T"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "NODE_0000061",
+                                                            "node_attrs": {
+                                                              "div": 0.00799923500255086,
+                                                              "num_date": {
+                                                                "value": 2011.6616438356164
+                                                              },
+                                                              "clade_membership": {
+                                                                "value": "SW03"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "A7695G"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "name": "KR348941",
+                                                                "node_attrs": {
+                                                                  "div": 0.00799923500255086,
+                                                                  "num_date": {
+                                                                    "value": 2011.6616438356164
+                                                                  },
+                                                                  "accession": "KR348941",
+                                                                  "clade_membership": {
+                                                                    "value": "SW03"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                }
+                                                              },
+                                                              {
+                                                                "name": "KJ501121",
+                                                                "node_attrs": {
+                                                                  "div": 0.00799923500255086,
+                                                                  "num_date": {
+                                                                    "value": 2011.6616438356164
+                                                                  },
+                                                                  "accession": "KJ501121",
+                                                                  "clade_membership": {
+                                                                    "value": "SW03"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                }
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "name": "NODE_0000055",
+                                                            "node_attrs": {
+                                                              "div": 0.007908457701847687,
+                                                              "num_date": {
+                                                                "value": 2011.6616438356164
+                                                              },
+                                                              "clade_membership": {
+                                                                "value": "SW03"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "name": "KJ501122",
+                                                                "node_attrs": {
+                                                                  "div": 0.007908457701847687,
+                                                                  "num_date": {
+                                                                    "value": 2011.6616438356164
+                                                                  },
+                                                                  "accession": "KJ501122",
+                                                                  "clade_membership": {
+                                                                    "value": "SW03"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                }
+                                                              },
+                                                              {
+                                                                "name": "KR348942",
+                                                                "node_attrs": {
+                                                                  "div": 0.007908457701847687,
+                                                                  "num_date": {
+                                                                    "value": 2011.6616438356164
+                                                                  },
+                                                                  "accession": "KR348942",
+                                                                  "clade_membership": {
+                                                                    "value": "SW03"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
